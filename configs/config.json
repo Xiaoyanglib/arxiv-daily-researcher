@@ -15,8 +15,7 @@
     //      nature, nature_physics, nature_communications, science,
     //      science_advances, npj_quantum_information, quantum, new_journal_of_physics
     "enabled": [
-      "arxiv",
-      "prl"
+      "arxiv"
     ],
     "journals": [], // 额外的期刊列表（除了 enabled 中指定的）
     // 是否按数据源分目录存放报告
@@ -27,7 +26,7 @@
   "target_domains": {
     // Arxiv分类代码列表。完整列表：https://arxiv.org/category_taxonomy
     "domains": [
-      "quant-ph"
+      "cs.CE", "cs.CG", "cs.CV", "cs.GR", ""
     ]
   },
   // 关键词配置 - 主要和次要关键词及其权重
@@ -35,7 +34,14 @@
     // 主要关键词 - 手动指定，相同的高权重
     "primary_keywords": {
       "weight": 1.0, // 所有主要关键词使用相同权重
-      "keywords": [],
+      "keywords": [
+        "mesh",
+        "offset",
+        "tet", "tetrahedral",
+        "quad", "quadrangulate",
+        "hex", "hexahedral",
+        "cross-field", "frame-field"
+      ]
     },
     // 是否从 reference_pdfs 目录提取次要关键词
     "enable_reference_extraction": true,
@@ -59,7 +65,7 @@
         }
       }
     },
-    "research_context": ""
+    "research_context": "我的研究方向是计算机图形学中的网格生成"
   },
   // 评分设置 - 控制论文评分逻辑
   "scoring_settings": {
