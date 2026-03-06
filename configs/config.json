@@ -36,11 +36,7 @@
       "weight": 1.0, // 所有主要关键词使用相同权重
       "keywords": [
         "mesh",
-        "offset",
-        "tet", "tetrahedral",
-        "quad", "quadrangulate",
-        "hex", "hexahedral",
-        "cross-field", "frame-field"
+        "field"
       ]
     },
     // 是否从 reference_pdfs 目录提取次要关键词
@@ -133,11 +129,11 @@
     "enabled": true, // 总开关（还需在 .env 中配置具体渠道的密钥/URL）
     "on_success": true, // 成功时发送通知
     "on_failure": true, // 失败时发送通知
-    "attach_reports": false, // 邮件是否附带报告文件
-    "top_n": 5, // 通知中包含的 Top-N 高分论文摘要数量
+    "attach_reports": true, // 邮件是否附带报告文件
+    "top_n": 10, // 通知中包含的 Top-N 高分论文摘要数量
     "channels": {
       "email": {
-        "enabled": false
+        "enabled": true
       },
       "wechat_work": {
         "enabled": false
