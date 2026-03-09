@@ -35,14 +35,10 @@
     "primary_keywords": {
       "weight": 1.0, // 所有主要关键词使用相同权重
       "keywords": [
-        "mesh",
-        "tri", "triangle", "triangular", "triangulate",
-        "tet", "tetrahedral", "tetrahedralization",
         "quad", "quadrangular",
         "hex", "hexahedral",
         "field",
         "vector-field", "cross-field", "frame-field",
-        "offset",
         "neur", "neural", 
         "sdf", "signed distance field",
       ]
