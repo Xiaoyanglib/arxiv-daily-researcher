@@ -26,7 +26,7 @@
   "target_domains": {
     // Arxiv分类代码列表。完整列表：https://arxiv.org/category_taxonomy
     "domains": [
-      "cs.GR"
+      "cs.GR", "cs.CV", "cs.CG"
     ]
   },
   // 关键词配置 - 主要和次要关键词及其权重
@@ -43,7 +43,8 @@
         "field",
         "vector-field", "cross-field", "frame-field",
         "offset",
-        "neur", "neural"
+        "neur", "neural", 
+        "sdf", "signed distance field",
       ]
     },
     // 是否从 reference_pdfs 目录提取次要关键词
