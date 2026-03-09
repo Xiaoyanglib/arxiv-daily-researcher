@@ -182,7 +182,7 @@
     // 任务状态轮询间隔（秒）
     "poll_interval": 3,
     // 任务超时时间（秒），超过此时间视为失败
-    "poll_timeout": 300
+    "poll_timeout": 600
   },
   // 报告设置
   "report_settings": {
